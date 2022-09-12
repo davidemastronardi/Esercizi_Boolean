@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.layout-70 {
+  width: 70%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+}
+
+.card {
+  margin-top: 50px;
+  width: calc(25% - 10px);
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.cover {
+  background-image: url(./img/pattern.png);
+  background-position: center;
+  background-size: 200px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: absolute;
+  
+}
+
+.card:hover .img1 {
+  opacity: 1;
+}
+.cover:hover {
+  opacity: 0;
+}
+
+.img1{
+    background-image: url(./img/noun_air_balloon_3134741.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
